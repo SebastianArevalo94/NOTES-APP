@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Nunito&display=swap");
+* {
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+}
+
+.global {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.login-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #E63946;
+  padding: 50px;
+  width: 65%;
+  height: 100vh;
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 55px;
+  width: 100%;
+  background-color: #A8DADC;
+}
+.login-container .login-text {
+  margin: 30px;
+  font-size: 27px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background-color: #F1FAEE;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 25px;
+  border-radius: 15px;
+  font-size: 25px;
+  width: 270px;
+}
+.login h2 {
+  text-align: center;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin: auto;
+}
+.login-form input {
+  width: 190px;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 20px;
+  background-color: #E63946;
+  outline: none;
+}
+.login-form button {
+  width: 100px;
+  margin: auto;
+  border: none;
+  padding: 10px;
+  color: #F1FAEE;
+  font-size: 20px;
+  border-radius: 20px;
+  background-color: #457B9D;
+  cursor: pointer;
+}/*# sourceMappingURL=login.css.map */
