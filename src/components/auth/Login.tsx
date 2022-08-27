@@ -20,13 +20,17 @@ export const Login = () => {
           <h2>Notes App</h2>
           <form className="login-form">
             <input type="email" placeholder="Email" />
-            <input type="password" placeholder="Email" />
-            <button type="submit">Go</button>
+            <input type="password" placeholder="Password" />
+            <button type="submit">
+              <p>Go</p>
+              <img width="25px" src="https://iili.io/4Tv5og.png" alt="" />
+            </button>
           </form>
         </div>
-        <p className="login-text">
-          Don’t have an account? <br /> Create One here
-        </p>
+        <div className="login-text">
+          <p>Don’t have an account? <br /> Create One here</p>
+          <img width="30px" src="https://iili.io/4Tv5og.png" alt="" />
+        </div>
       </div>
     </div>
   );

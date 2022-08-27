@@ -23,10 +23,16 @@
   width: 100%;
   background-color: $lightBlue;
   .login-text {
+    position: relative;
     margin: 30px;
     font-size: 27px;
     text-align: center;
     cursor: pointer;
+    img {
+        position: absolute;
+        left: 91%;
+        bottom: 2%;
+    }
   }
   .login-note {
     position: relative;
@@ -52,6 +58,7 @@
   width: 270px;
   h2 {
     text-align: center;
+    margin: 10px 0;
   }
 }
 
@@ -62,12 +69,23 @@
   margin: auto;
   input {
     width: 190px;
-    padding: 15px 20px;
+    padding: 12px 20px;
     border: none;
-    border-radius: 20px;
+    border-radius: 25px;
     outline: none;
+    background-color: $red;
+    color: $beige;
+    font-size: 20px;
+  }
+  input::placeholder {
+    color: $beige;
+    font-size: 20px;
+    text-align: center;
   }
   button {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
     width: 100px;
     margin: auto;
     border: none;

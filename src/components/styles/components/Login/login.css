@@ -28,10 +28,16 @@
   background-color: #A8DADC;
 }
 .login-container .login-text {
+  position: relative;
   margin: 30px;
   font-size: 27px;
   text-align: center;
   cursor: pointer;
+}
+.login-container .login-text img {
+  position: absolute;
+  left: 91%;
+  bottom: 2%;
 }
 .login-container .login-note {
   position: relative;
@@ -59,6 +65,7 @@
 }
 .login h2 {
   text-align: center;
+  margin: 10px 0;
 }
 
 .login-form {
@@ -69,12 +76,33 @@
 }
 .login-form input {
   width: 190px;
-  padding: 15px 20px;
+  padding: 12px 20px;
   border: none;
-  border-radius: 20px;
+  border-radius: 25px;
   outline: none;
+  background-color: #E63946;
+  color: #F1FAEE;
+  font-size: 20px;
+}
+.login-form input::-moz-placeholder {
+  color: #F1FAEE;
+  font-size: 20px;
+  text-align: center;
+}
+.login-form input:-ms-input-placeholder {
+  color: #F1FAEE;
+  font-size: 20px;
+  text-align: center;
+}
+.login-form input::placeholder {
+  color: #F1FAEE;
+  font-size: 20px;
+  text-align: center;
 }
 .login-form button {
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
   width: 100px;
   margin: auto;
   border: none;
