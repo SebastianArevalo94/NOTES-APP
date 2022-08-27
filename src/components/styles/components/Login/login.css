@@ -33,6 +33,16 @@
   text-align: center;
   cursor: pointer;
 }
+.login-container .login-note {
+  position: relative;
+}
+.login-container .login-note p {
+  text-align: center;
+  font-size: 40px;
+  bottom: 23%;
+  left: 19.5%;
+  position: absolute;
+}
 
 .login {
   display: flex;
@@ -62,7 +72,6 @@
   padding: 15px 20px;
   border: none;
   border-radius: 20px;
-  background-color: #E63946;
   outline: none;
 }
 .login-form button {
